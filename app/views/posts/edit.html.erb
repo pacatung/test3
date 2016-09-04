@@ -1,0 +1,10 @@
+<%= form_for @post, url: post_path(@post) do |p| %>
+    <%= p.label :title, "title" %>
+    <%= p.text_field :title %>
+
+    <%= p.label :content, "content" %>
+    <%= p.text_area :content %>
+
+    <%= p.submit "Update" %>
+<% end %>
+<%= link_to "Back to index", posts_path %>
