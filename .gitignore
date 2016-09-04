@@ -15,3 +15,10 @@
 /log/*
 !/log/.keep
 /tmp
+/public/system/imageables/images/
+/config/application.rb
+/config/initializers/s3_direct_upload.rb
+/config/initializers/aws.rb
+/.env
+/config/awss3.yml
+/config/environment.rb
