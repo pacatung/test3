@@ -20,3 +20,4 @@
 /config/initializers/aws.rb
 /.env
 /config/awss3.yml
+/config/aws.yml
